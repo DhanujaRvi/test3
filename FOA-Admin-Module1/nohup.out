@@ -1,0 +1,966 @@
+True
+ * Serving Flask app 'flaskApp' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.128.0.30:5000 (Press CTRL+C to quit)
+127.0.0.1 - - [20/Oct/2022 11:07:13] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 11:07:16] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 11:07:25] "POST /admin/add_processor HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 11:07:25] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 11:07:28] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 11:07:30] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 11:07:30] "GET /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 11:07:34] "POST /admin/map_processor HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 11:07:34] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 11:07:37] "POST /admin/unmap_processor HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 11:07:38] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 11:07:42] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 11:07:43] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 11:07:44] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 11:07:46] "GET /admin/display_fields HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 11:07:46] "GET /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 13:00:17] "GET /admin/.env HTTP/1.0" 404 -
+True
+ * Serving Flask app 'flaskApp' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.128.0.30:5000 (Press CTRL+C to quit)
+127.0.0.1 - - [21/Oct/2022 06:00:40] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 06:00:43] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:27:56] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:38:20] "OPTIONS /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:38:21] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:38:35] "OPTIONS /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:38:35] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:38:46] "OPTIONS /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:38:46] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:39:24] "OPTIONS /admin/add_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:39:27] "POST /admin/add_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:39:27] "OPTIONS /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:39:28] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:39:31] "OPTIONS /admin/add_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:39:33] "POST /admin/add_processor HTTP/1.0" 400 -
+127.0.0.1 - - [21/Oct/2022 07:39:34] "OPTIONS /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:39:34] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:40:12] "POST /admin/activate_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:41:12] "OPTIONS /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:41:13] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:41:14] "OPTIONS /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:41:15] "OPTIONS /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:41:15] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:41:15] "GET /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:41:17] "OPTIONS /admin/map_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:41:18] "POST /admin/map_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:41:18] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:47:17] "OPTIONS /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:47:17] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:47:37] "OPTIONS /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:47:37] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:47:45] "OPTIONS /admin/add_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:47:46] "POST /admin/add_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:47:46] "OPTIONS /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:47:47] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:47:48] "OPTIONS /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:47:49] "OPTIONS /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:47:49] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:47:50] "GET /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:47:51] "OPTIONS /admin/map_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:47:53] "POST /admin/map_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:47:53] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:48:01] "OPTIONS /admin/map_document HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:48:01] "POST /admin/map_document HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:48:02] "OPTIONS /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:48:02] "GET /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:48:03] "OPTIONS /admin/display_fields HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:48:03] "GET /admin/display_fields HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:48:04] "OPTIONS /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:48:04] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:51:05] "OPTIONS /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:51:06] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:51:19] "OPTIONS /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:51:19] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 08:16:36] "OPTIONS /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 08:16:36] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 08:17:28] "OPTIONS /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 08:17:29] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 08:49:02] "OPTIONS /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 08:49:03] "OPTIONS /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 08:49:03] "OPTIONS /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 08:49:03] "GET /admin/display_queues HTTP/1.0" 401 -
+127.0.0.1 - - [21/Oct/2022 08:49:03] "GET /admin/display_processor HTTP/1.0" 401 -
+127.0.0.1 - - [21/Oct/2022 08:49:03] "GET /admin/display_documenttype HTTP/1.0" 401 -
+127.0.0.1 - - [21/Oct/2022 08:49:13] "OPTIONS /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 08:49:13] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 08:49:15] "OPTIONS /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 08:49:16] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 08:53:14] "OPTIONS /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 08:53:14] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 08:53:17] "OPTIONS /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 08:53:17] "OPTIONS /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 08:53:17] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 08:53:17] "GET /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 09:11:40] "OPTIONS /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 09:11:41] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 13:14:35] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 13:14:43] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 13:14:51] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 13:14:54] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 13:14:54] "GET /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 13:14:58] "POST /admin/unmap_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 13:14:58] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 13:15:01] "POST /admin/map_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 13:15:02] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 13:15:59] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 13:16:02] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 13:16:05] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 13:29:28] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 13:29:43] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 13:45:30] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 13:45:32] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 14:02:36] "OPTIONS /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 14:02:36] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 14:02:56] "OPTIONS /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 14:02:56] "OPTIONS /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 14:02:56] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 14:02:56] "GET /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 14:10:31] "OPTIONS /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 14:10:31] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 14:10:41] "OPTIONS /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 14:10:41] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 14:14:13] "OPTIONS /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 14:14:14] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 14:15:11] "OPTIONS /admin/display_fields HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 14:15:12] "GET /admin/display_fields HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 14:15:14] "OPTIONS /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 14:15:14] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 14:15:23] "OPTIONS /admin/display_fields HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 14:15:23] "GET /admin/display_fields HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 14:15:24] "OPTIONS /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 14:15:25] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 14:17:15] "OPTIONS /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 14:17:16] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 14:19:49] "OPTIONS /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 14:19:49] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 17:40:25] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 17:40:28] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 18:03:23] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 18:03:27] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 18:04:26] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 18:04:28] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 18:04:36] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 18:04:39] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 18:04:42] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 18:04:42] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 18:04:42] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 18:04:42] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 18:05:08] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 18:05:40] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 18:13:38] "POST /admin/display_batch HTTP/1.0" 200 -
+True
+ * Serving Flask app 'flaskApp' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.128.0.30:5000 (Press CTRL+C to quit)
+127.0.0.1 - - [21/Oct/2022 18:29:49] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 18:29:51] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 18:29:53] "GET /admin/display_fields HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 18:29:53] "GET /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 18:34:23] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 18:34:29] "POST /admin/add_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 18:34:29] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 18:34:30] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 18:35:18] "POST /admin/add_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 18:35:18] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 18:35:19] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 18:35:21] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 18:35:21] "GET /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 18:35:24] "POST /admin/map_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 18:35:24] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 18:35:33] "POST /admin/map_document HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 18:35:34] "GET /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 18:37:27] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 18:44:29] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 18:47:01] "POST /admin/display_batch HTTP/1.0" 200 -
+True
+ * Serving Flask app 'flaskApp' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.128.0.30:5000 (Press CTRL+C to quit)
+127.0.0.1 - - [21/Oct/2022 19:01:42] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 19:01:48] "POST /admin/add_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 19:01:48] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 19:02:06] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 19:02:17] "POST /admin/add_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 19:02:17] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 19:02:19] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 19:02:21] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 19:02:21] "GET /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 19:02:24] "POST /admin/map_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 19:02:24] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 19:02:32] "POST /admin/map_document HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 19:02:33] "GET /admin/display_documenttype HTTP/1.0" 200 -
+Traceback (most recent call last):
+  File "/home/ubuntu/Payables-Admin-Module/Database/BatchDb.py", line 215, in display
+    response["total_batches"] = total_batch
+UnboundLocalError: local variable 'total_batch' referenced before assignment
+127.0.0.1 - - [21/Oct/2022 19:02:37] "POST /admin/display_batch HTTP/1.0" 400 -
+127.0.0.1 - - [21/Oct/2022 19:03:55] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 19:04:00] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 19:05:12] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 19:05:53] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 19:07:57] "GET /admin/display_fields HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 19:07:58] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 19:19:52] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 19:20:00] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 19:21:31] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 03:15:24] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 03:15:28] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 03:17:16] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 03:34:33] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 03:39:46] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 07:04:05] "OPTIONS /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 07:04:06] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 07:04:07] "OPTIONS /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 07:04:07] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 07:05:41] "OPTIONS /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 07:05:42] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 07:06:04] "OPTIONS /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 07:06:05] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 07:06:09] "OPTIONS /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 07:06:09] "OPTIONS /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 07:06:09] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 07:06:09] "GET /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 07:06:52] "OPTIONS /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 07:06:52] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 07:07:25] "OPTIONS /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 07:07:26] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 07:07:28] "OPTIONS /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 07:07:28] "OPTIONS /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 07:07:28] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 07:07:28] "GET /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 07:12:46] "OPTIONS /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 07:12:47] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 07:15:41] "OPTIONS /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 07:15:41] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 07:16:26] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 07:16:32] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 08:06:23] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 08:10:02] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 08:12:17] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 08:13:26] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 08:14:48] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 08:17:05] "POST /admin/display_batch HTTP/1.0" 401 -
+127.0.0.1 - - [22/Oct/2022 08:17:14] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 08:17:19] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 08:39:16] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 08:39:33] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 08:42:19] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 08:43:22] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [22/Oct/2022 08:43:34] "POST /admin/display_batch HTTP/1.0" 200 -
+True
+ * Serving Flask app 'flaskApp' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.128.0.30:5000 (Press CTRL+C to quit)
+127.0.0.1 - - [28/Oct/2022 04:39:32] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 04:39:36] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 04:39:45] "POST /admin/delete_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 04:39:45] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 04:40:11] "POST /admin/delete_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 04:40:11] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 04:40:24] "GET /admin/display_fields HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 04:40:25] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 04:40:32] "POST /admin/delete_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 04:40:32] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 04:41:57] "POST /admin/delete_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 07:20:31] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 07:20:34] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 07:21:48] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 07:33:34] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 09:01:50] "POST /admin/display_batch HTTP/1.0" 401 -
+127.0.0.1 - - [28/Oct/2022 09:02:02] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 09:02:06] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 09:03:36] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 09:09:43] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 09:34:00] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 09:41:06] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 09:44:08] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:53:27] "POST /admin/display_batch HTTP/1.0" 401 -
+127.0.0.1 - - [28/Oct/2022 10:53:27] "POST /admin/display_batch HTTP/1.0" 401 -
+127.0.0.1 - - [28/Oct/2022 10:53:27] "POST /admin/display_batch HTTP/1.0" 401 -
+127.0.0.1 - - [28/Oct/2022 10:53:27] "POST /admin/display_batch HTTP/1.0" 401 -
+127.0.0.1 - - [28/Oct/2022 10:53:27] "POST /admin/display_batch HTTP/1.0" 401 -
+127.0.0.1 - - [28/Oct/2022 10:56:22] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:56:25] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:56:28] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:56:28] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:56:28] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:56:28] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:56:28] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:56:40] "POST /admin/delete_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:56:40] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:56:45] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:56:45] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:56:45] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:56:46] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:56:50] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:56:52] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:56:52] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:56:52] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:57:04] "POST /admin/delete_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:57:05] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:57:10] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:57:25] "POST /admin/delete_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:57:25] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:57:30] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:57:32] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:57:33] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:57:36] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:57:38] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:57:53] "POST /admin/delete_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:57:53] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:58:01] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:58:04] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:58:07] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:58:07] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:58:14] "POST /admin/delete_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 10:58:14] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 12:02:59] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 12:03:01] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 12:12:54] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 12:21:51] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 12:24:02] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 13:40:21] "POST /admin/display_batch HTTP/1.0" 401 -
+127.0.0.1 - - [28/Oct/2022 15:02:19] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 15:02:22] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 15:18:23] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [28/Oct/2022 15:20:57] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 04:11:50] "OPTIONS /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 04:11:50] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 04:11:57] "OPTIONS /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 04:11:57] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 04:13:02] "OPTIONS /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 04:13:03] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 04:39:09] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 04:39:47] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 04:41:01] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 04:59:52] "OPTIONS /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 04:59:52] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 05:36:31] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 05:36:33] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 05:37:37] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 07:02:04] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 07:02:07] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 07:03:25] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 07:15:50] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 07:29:34] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 07:40:56] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 08:24:19] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 08:24:24] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 08:25:38] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 09:07:25] "OPTIONS /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 09:07:26] "POST /admin/display_batch HTTP/1.0" 401 -
+127.0.0.1 - - [29/Oct/2022 09:33:40] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 09:33:42] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 09:34:59] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 09:44:21] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 11:40:43] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 11:40:45] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 11:42:08] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 12:11:29] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 12:11:32] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 12:12:50] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 12:30:57] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 12:32:17] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 12:39:28] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 16:58:01] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 16:58:03] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [29/Oct/2022 16:59:47] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 05:11:05] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 05:11:17] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 05:12:21] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 06:38:57] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 06:39:01] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 06:40:07] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 07:04:58] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 07:12:10] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 07:31:48] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 08:10:06] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 08:10:09] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 08:11:29] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 08:20:22] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 08:36:26] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 08:36:29] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 08:37:55] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 09:04:31] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 09:14:21] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 09:25:08] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 09:32:11] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 09:55:22] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 09:55:25] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 09:56:42] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 10:49:51] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 14:36:13] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 14:36:18] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 14:39:04] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 15:22:41] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 15:25:52] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 16:45:54] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 16:45:59] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 16:47:46] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 16:54:20] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 17:03:21] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 17:03:26] "POST /admin/delete_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 17:03:27] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 17:03:33] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 17:03:37] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 17:03:44] "POST /admin/delete_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 17:03:45] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 17:04:02] "POST /admin/delete_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 17:04:03] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [30/Oct/2022 17:10:42] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 03:14:06] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 03:14:21] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 03:16:58] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 04:10:48] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 04:33:12] "POST /admin/display_batch HTTP/1.0" 401 -
+127.0.0.1 - - [31/Oct/2022 04:33:12] "POST /admin/display_batch HTTP/1.0" 401 -
+127.0.0.1 - - [31/Oct/2022 04:33:12] "POST /admin/display_batch HTTP/1.0" 401 -
+127.0.0.1 - - [31/Oct/2022 04:33:12] "POST /admin/display_batch HTTP/1.0" 401 -
+127.0.0.1 - - [31/Oct/2022 04:33:12] "POST /admin/display_batch HTTP/1.0" 401 -
+127.0.0.1 - - [31/Oct/2022 04:33:27] "OPTIONS /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 04:33:28] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 04:33:30] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 04:33:34] "OPTIONS /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 04:33:35] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 04:33:36] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 04:33:41] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 04:33:42] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 04:33:42] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 04:33:42] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 04:33:42] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 04:34:09] "OPTIONS /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 04:34:10] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 04:34:11] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 04:34:15] "OPTIONS /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 04:34:15] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 04:34:16] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 04:34:18] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 04:34:29] "OPTIONS /admin/delete_batch HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 04:34:30] "POST /admin/delete_batch HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 04:34:30] "OPTIONS /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 04:34:30] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 07:00:59] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 07:01:02] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 07:02:19] "POST /admin/display_batch HTTP/1.0" 200 -
+Time taken for authentication0.10143256187438965
+Time taken for authentication0.09125971794128418
+Time taken for authentication0.025579214096069336
+Time taken for authentication0.08030343055725098
+Time taken for authentication0.04613208770751953
+Time taken for authentication0.07983899116516113
+Time taken for authentication0.013191938400268555
+Time taken for authentication0.07820391654968262
+Time taken for authentication0.04240155220031738
+Time taken for authentication0.07675313949584961
+Time taken for authentication0.021701812744140625
+Time taken for authentication0.08443307876586914
+Time taken for authentication0.08308029174804688
+Time taken for authentication0.07717299461364746
+Time taken for authentication0.08218550682067871
+Time taken for authentication0.0767674446105957
+Time taken for authentication0.2749593257904053
+Time taken for authentication0.08102583885192871
+Time taken for authentication0.09133291244506836
+Time taken for authentication0.1287064552307129
+Time taken for authentication0.07725286483764648
+Time taken for authentication0.07980966567993164
+Time taken for authentication0.06741499900817871
+Time taken for authentication0.08211922645568848
+Time taken for authentication0.07607746124267578
+Time taken for authentication0.07751965522766113
+Time taken for authentication0.07841944694519043
+Time taken for authentication0.08172130584716797
+Time taken for authentication0.03395223617553711
+Time taken for authentication0.04800152778625488
+Time taken for authentication0.07857942581176758
+Time taken for authentication0.07723474502563477
+Time taken for authentication0.0784304141998291
+Time taken for authentication0.0769505500793457
+Time taken for authentication0.07695627212524414
+Time taken for authentication0.0769650936126709
+Time taken for authentication0.07677030563354492
+Time taken for authentication0.07413721084594727
+Time taken for authentication0.0743858814239502
+Time taken for authentication0.09698796272277832
+Time taken for authentication0.07739496231079102
+Time taken for authentication0.07958102226257324
+Time taken for authentication0.09361958503723145
+Time taken for authentication0.07693243026733398
+Time taken for authentication0.07400894165039062
+Time taken for authentication0.07428812980651855
+Time taken for authentication0.07308292388916016
+Time taken for authentication0.07589435577392578
+Time taken for authentication0.07434606552124023
+Time taken for authentication0.09914898872375488
+Time taken for authentication0.07322025299072266
+Time taken for authentication0.08633804321289062
+Time taken for authentication0.07341408729553223
+Time taken for authentication0.07529878616333008
+Time taken for authentication0.03159761428833008
+Time taken for authentication0.03728604316711426
+Time taken for authentication0.07383918762207031
+Time taken for authentication0.030196189880371094
+Time taken for authentication0.08314323425292969
+Time taken for authentication0.07907533645629883
+Time taken for authentication0.08612418174743652
+Time taken for authentication0.10277700424194336
+Time taken for authentication0.09258723258972168
+Time taken for authentication0.09658002853393555
+Time taken for authentication0.02875542640686035
+Time taken for authentication0.08308911323547363
+Time taken for authentication0.07498049736022949
+Time taken for authentication0.08183455467224121
+Time taken for authentication0.08306002616882324
+Time taken for authentication0.027924537658691406
+Time taken for authentication0.08081269264221191
+Time taken for authentication0.08238887786865234
+Time taken for authentication0.08123588562011719
+Time taken for authentication0.029250144958496094
+Time taken for authentication0.08015584945678711
+Time taken for authentication0.07840704917907715
+Time taken for authentication0.07777094841003418
+Time taken for authentication0.08893537521362305
+Time taken for authentication0.07680058479309082
+Time taken for authentication0.08260560035705566
+Time taken for authentication0.1303396224975586
+Time taken for authentication0.07900285720825195
+Time taken for authentication0.07718491554260254
+Time taken for authentication0.08349609375
+Time taken for authentication0.07737445831298828
+Time taken for authentication0.06565999984741211
+Time taken for authentication0.0850362777709961
+Time taken for authentication0.07636618614196777
+Time taken for authentication0.0785064697265625
+Time taken for authentication0.07934904098510742
+Time taken for authentication0.08220314979553223
+Time taken for authentication0.07972025871276855
+Time taken for authentication0.02673792839050293
+Time taken for authentication0.08040380477905273
+Time taken for authentication0.0775454044342041
+Time taken for authentication0.07911825180053711
+Time taken for authentication0.07745814323425293
+Time taken for authentication0.0758049488067627
+Time taken for authentication0.07670116424560547
+Time taken for authentication0.08453512191772461
+Time taken for authentication0.07950329780578613
+Time taken for authentication0.07382059097290039
+Time taken for authentication0.08324122428894043
+Time taken for authentication0.07645487785339355
+Time taken for authentication0.08130502700805664
+Time taken for authentication0.10034680366516113
+Time taken for authentication0.08033370971679688
+Time taken for authentication0.12468504905700684
+Time taken for authentication0.07421445846557617
+Time taken for authentication0.07882881164550781
+Time taken for authentication0.0756685733795166
+Time taken for authentication0.08277440071105957
+Time taken for authentication0.0780489444732666
+Time taken for authentication0.08156657218933105
+Time taken for authentication0.027254819869995117
+Time taken for authentication0.0780949592590332
+Time taken for authentication0.079986572265625
+Time taken for authentication0.08131670951843262
+Time taken for authentication0.07805848121643066
+Time taken for authentication0.08090782165527344
+Time taken for authentication0.07998824119567871
+Time taken for authentication0.03364086151123047
+Time taken for authentication0.07900190353393555
+Time taken for authentication0.07782506942749023
+Time taken for authentication0.1314847469329834
+Time taken for authentication0.07731509208679199
+Time taken for authentication0.08426904678344727
+Time taken for authentication0.0792391300201416
+Time taken for authentication0.07848715782165527
+Time taken for authentication0.07905149459838867
+Time taken for authentication0.03365159034729004
+Time taken for authentication0.08098316192626953
+Time taken for authentication0.0822296142578125
+Time taken for authentication0.09297728538513184
+Time taken for authentication0.08895254135131836
+Time taken for authentication0.023864030838012695
+Time taken for authentication0.08332300186157227
+Time taken for authentication0.08376312255859375
+Time taken for authentication0.08336806297302246
+Time taken for authentication0.020328521728515625
+Time taken for authentication0.0770711898803711
+Time taken for authentication0.018789052963256836
+Time taken for authentication0.07909369468688965
+Time taken for authentication0.08770966529846191
+Time taken for authentication0.08144092559814453
+Time taken for authentication0.08797883987426758
+Time taken for authentication0.08731985092163086
+Time taken for authentication0.13370680809020996
+Time taken for authentication0.03345942497253418
+Time taken for authentication0.02808380126953125
+Time taken for authentication0.08024811744689941
+Time taken for authentication0.0811011791229248
+Time taken for authentication0.08199143409729004
+Time taken for authentication0.08084797859191895
+Time taken for authentication0.10886335372924805
+Time taken for authentication0.1016075611114502
+Time taken for authentication0.08136343955993652
+Time taken for authentication0.08319520950317383
+Time taken for authentication0.08260011672973633
+Time taken for authentication0.07919669151306152
+Time taken for authentication0.07981157302856445
+Time taken for authentication0.06992316246032715
+Time taken for authentication0.02623128890991211
+Time taken for authentication0.08070683479309082
+Time taken for authentication0.02804088592529297
+Time taken for authentication0.08786630630493164
+Time taken for authentication0.0856313705444336
+Time taken for authentication0.08186650276184082127.0.0.1 - - [31/Oct/2022 07:39:02] "POST /admin/display_batch HTTP/1.0" 200 -
+Traceback (most recent call last):
+  File "/home/ubuntu/Payables-Admin-Module/flaskApp.py", line 5, in <module>
+    from flask import Flask, send_from_directory, render_template
+ModuleNotFoundError: No module named 'flask'
+True
+ * Serving Flask app 'flaskApp' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.128.0.30:5000 (Press CTRL+C to quit)
+127.0.0.1 - - [31/Oct/2022 17:27:50] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 17:27:54] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 17:29:12] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 17:29:14] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 17:30:58] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 17:31:00] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 20:03:36] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 20:03:43] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 20:03:43] "GET /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 20:03:45] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 20:03:48] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 20:04:01] "GET /admin/display_fields HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 20:04:01] "GET /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 20:04:16] "GET /admin/display_fields HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 20:04:17] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 20:06:00] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 20:16:25] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 20:16:29] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [31/Oct/2022 20:18:41] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [01/Nov/2022 04:01:59] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [01/Nov/2022 04:02:02] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [01/Nov/2022 13:17:03] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [01/Nov/2022 13:17:06] "GET /admin/display_fields HTTP/1.0" 200 -
+127.0.0.1 - - [01/Nov/2022 13:17:07] "GET /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [01/Nov/2022 13:26:02] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [01/Nov/2022 13:26:05] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [01/Nov/2022 13:27:09] "GET /admin/display_fields HTTP/1.0" 200 -
+127.0.0.1 - - [01/Nov/2022 13:27:16] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [01/Nov/2022 13:32:42] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [01/Nov/2022 14:06:18] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [01/Nov/2022 14:06:20] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [01/Nov/2022 14:21:37] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [01/Nov/2022 14:43:46] "POST /admin/delete_batch HTTP/1.0" 200 -
+127.0.0.1 - - [01/Nov/2022 14:43:46] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [01/Nov/2022 14:46:11] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [01/Nov/2022 15:27:30] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [01/Nov/2022 15:27:57] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [01/Nov/2022 15:29:52] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [01/Nov/2022 15:42:53] "POST /admin/display_batch HTTP/1.0" 401 -
+127.0.0.1 - - [01/Nov/2022 15:43:07] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [01/Nov/2022 15:43:10] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [01/Nov/2022 16:34:33] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [01/Nov/2022 16:34:33] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [01/Nov/2022 18:56:16] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [01/Nov/2022 18:56:19] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [02/Nov/2022 14:55:02] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [02/Nov/2022 14:55:22] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [02/Nov/2022 14:55:22] "GET /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [02/Nov/2022 14:55:24] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [02/Nov/2022 14:55:27] "GET /admin/display_fields HTTP/1.0" 200 -
+127.0.0.1 - - [02/Nov/2022 14:55:27] "GET /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [02/Nov/2022 14:55:41] "GET /admin/display_fields HTTP/1.0" 200 -
+127.0.0.1 - - [02/Nov/2022 14:55:44] "GET /admin/display_fields HTTP/1.0" 200 -
+127.0.0.1 - - [02/Nov/2022 14:55:44] "GET /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [02/Nov/2022 15:06:22] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [02/Nov/2022 15:07:47] "GET /admin/display_fields HTTP/1.0" 200 -
+127.0.0.1 - - [02/Nov/2022 15:07:47] "GET /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [02/Nov/2022 15:09:12] "GET /admin/display_fields HTTP/1.0" 200 -
+127.0.0.1 - - [02/Nov/2022 15:09:15] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [02/Nov/2022 15:10:39] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [04/Nov/2022 07:33:44] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [04/Nov/2022 14:17:57] "GET /admin.shtml HTTP/1.0" 404 -
+127.0.0.1 - - [04/Nov/2022 14:17:57] "GET /admin.html HTTP/1.0" 404 -
+127.0.0.1 - - [06/Nov/2022 22:46:01] "GET /admin/assets/js/views/login.js HTTP/1.0" 404 -
+127.0.0.1 - - [07/Nov/2022 10:02:33] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [07/Nov/2022 10:02:36] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [07/Nov/2022 10:03:12] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [07/Nov/2022 10:03:29] "GET /admin/display_fields HTTP/1.0" 200 -
+127.0.0.1 - - [07/Nov/2022 10:03:29] "GET /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [07/Nov/2022 10:04:26] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [07/Nov/2022 10:04:36] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [07/Nov/2022 10:04:42] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [07/Nov/2022 10:05:08] "POST /admin/add_queues HTTP/1.0" 200 -
+127.0.0.1 - - [07/Nov/2022 10:05:08] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [07/Nov/2022 10:05:25] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [07/Nov/2022 10:06:15] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [08/Nov/2022 10:25:10] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [08/Nov/2022 10:25:13] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [08/Nov/2022 10:25:16] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [08/Nov/2022 10:25:18] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [08/Nov/2022 10:25:20] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [08/Nov/2022 10:27:38] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [08/Nov/2022 10:27:40] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [08/Nov/2022 10:27:42] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [08/Nov/2022 10:27:47] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [08/Nov/2022 14:06:37] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [08/Nov/2022 14:06:39] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [08/Nov/2022 14:09:30] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [09/Nov/2022 03:17:06] "GET /admin/ HTTP/1.0" 404 -
+127.0.0.1 - - [09/Nov/2022 06:02:25] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [09/Nov/2022 06:02:27] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [09/Nov/2022 06:16:21] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [09/Nov/2022 06:23:03] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [09/Nov/2022 06:59:47] "OPTIONS /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [09/Nov/2022 06:59:47] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [09/Nov/2022 06:59:55] "OPTIONS /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [09/Nov/2022 06:59:55] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [09/Nov/2022 07:01:36] "OPTIONS /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [09/Nov/2022 07:01:37] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [09/Nov/2022 07:01:39] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [09/Nov/2022 07:04:54] "OPTIONS /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [09/Nov/2022 07:04:54] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [09/Nov/2022 07:04:58] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [09/Nov/2022 07:27:12] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [09/Nov/2022 07:27:26] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [09/Nov/2022 11:12:11] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [09/Nov/2022 11:12:25] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [23/Nov/2022 05:47:33] "GET /admin/ HTTP/1.0" 404 -
+127.0.0.1 - - [24/Nov/2022 06:03:48] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [24/Nov/2022 06:03:55] "POST /admin/display_batch HTTP/1.0" 200 -
+True
+loan_no True
+closing_date True
+property_address True
+property_city True
+property_state True
+borrower_first_name True
+borrower_last_name True
+maturity_date True
+initial_interest_rate True
+variable True
+maximum_interest_rate True
+reset_date True
+borrwer(s)_signed_note True
+serv_no True
+borrower_name(s) True
+principal_balance True
+originator_signed_allonge True
+loan_agreement True
+lender True
+borrower(s)_signed True
+lender_signed True
+total_initial_advanced True
+principal_limit True
+initial_credit_limit True
+mers_mortage_no True
+certification_of_true_copy True
+title_insurance_no True
+borrower_signed_deed True
+policy_amount True
+trust_or_POA True
+supportive_document True
+va_commitment True
+aka_statement True
+notarized_trust True
+notarized_POA True
+loan_no_non_critical True
+borrower_non_critical True
+policy_number_non_critical True
+jurisdiction_non_critical True
+same_name_affidavit_ans True
+tax_ans True
+SPE_ans True
+OFAC_ans True
+cert_ans True
+disb_auth_ans True
+borrower_name True
+purpose True
+interest_rate True
+loan_amount True
+monthly_payment_date True
+monthly_amount True
+initial_advanced True
+mortgage_deed True
+borrower_signed_mortgage True
+mortgage_notarized True
+guaranty True
+guaranty_signed True
+rental_cert True
+rental_cert_signed True
+loan_agreement_signed True
+mortage_note True
+allonge True
+loan_agreement True
+deed_of_mortage True
+title_insurance True
+ancillary_documents True
+aka_statement True
+others True
+critical True
+non_critical True
+Mortgage True
+Fix and Flip True
+ * Serving Flask app 'flaskApp' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.128.0.30:5000 (Press CTRL+C to quit)
+127.0.0.1 - - [16/Dec/2022 09:44:33] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [16/Dec/2022 09:44:35] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [16/Dec/2022 09:50:28] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [16/Dec/2022 16:53:32] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [16/Dec/2022 16:53:37] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [16/Dec/2022 16:53:37] "GET /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [16/Dec/2022 16:53:42] "GET /admin/display_fields HTTP/1.0" 200 -
+127.0.0.1 - - [16/Dec/2022 16:53:42] "GET /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [16/Dec/2022 16:54:03] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [16/Dec/2022 16:56:49] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [16/Dec/2022 16:56:52] "GET /admin/display_fields HTTP/1.0" 200 -
+127.0.0.1 - - [16/Dec/2022 16:56:52] "GET /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [16/Dec/2022 16:56:53] "GET /admin/display_fields HTTP/1.0" 200 -
+127.0.0.1 - - [16/Dec/2022 16:56:54] "GET /admin/display_processor HTTP/1.0" 200 -
+True
+loan_no True
+closing_date True
+property_address True
+property_city True
+property_state True
+borrower_first_name True
+borrower_last_name True
+maturity_date True
+initial_interest_rate True
+variable True
+maximum_interest_rate True
+reset_date True
+borrwer(s)_signed_note True
+serv_no True
+borrower_name(s) True
+principal_balance True
+originator_signed_allonge True
+loan_agreement True
+lender True
+borrower(s)_signed True
+lender_signed True
+total_initial_advanced True
+principal_limit True
+initial_credit_limit True
+mers_mortage_no True
+certification_of_true_copy True
+title_insurance_no True
+borrower_signed_deed True
+policy_amount True
+trust_or_POA True
+supportive_document True
+va_commitment True
+aka_statement True
+notarized_trust True
+notarized_POA True
+loan_no_non_critical True
+borrower_non_critical True
+policy_number_non_critical True
+jurisdiction_non_critical True
+same_name_affidavit_ans True
+tax_ans True
+SPE_ans True
+OFAC_ans True
+cert_ans True
+disb_auth_ans True
+borrower_name True
+purpose True
+interest_rate True
+loan_amount True
+monthly_payment_date True
+monthly_amount True
+initial_advanced True
+mortgage_deed True
+borrower_signed_mortgage True
+mortgage_notarized True
+guaranty True
+guaranty_signed True
+rental_cert True
+rental_cert_signed True
+loan_agreement_signed True
+mortage_note True
+allonge True
+loan_agreement True
+deed_of_mortage True
+title_insurance True
+ancillary_documents True
+aka_statement True
+others True
+critical True
+non_critical True
+Mortgage True
+Fix and Flip True
+ * Serving Flask app 'flaskApp' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.128.0.30:5000 (Press CTRL+C to quit)
+127.0.0.1 - - [19/Dec/2022 17:32:08] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2022 17:37:38] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2022 17:37:44] "POST /admin/display_batch HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2022 17:37:55] "GET /admin/display_fields HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2022 17:37:55] "GET /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2022 17:38:28] "GET /admin/display_fields HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2022 17:38:33] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2022 17:38:35] "GET /admin/display_processor HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2022 17:38:36] "GET /admin/display_fields HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2022 17:38:36] "GET /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2022 17:58:22] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2022 18:05:06] "GET /admin/display_queues HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2022 18:06:02] "GET /admin/display_fields HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2022 18:06:03] "GET /admin/display_documenttype HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2022 18:07:57] "GET /admin/display_fields HTTP/1.0" 200 -
+127.0.0.1 - - [19/Dec/2022 18:08:30] "POST /admin/display_batch HTTP/1.0" 200 -

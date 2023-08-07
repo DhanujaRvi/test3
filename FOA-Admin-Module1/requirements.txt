@@ -1,0 +1,10 @@
+flask_sqlalchemy
+flask_migrate
+flask_restful
+psycopg2-binary 
+PyJWT
+flask_cors
+requests
+sqlalchemy-utils
+cryptography
+pycryptodome
